@@ -1,0 +1,128 @@
+Git Commands for first time login you need to configure:
+
+[khadeer@khadeer Desktop]$ git config --global user.name "YourUserNameGivenToGitHubAccount"
+[khadeer@khadeer Desktop]$ git config --global user.name "YourUserNameGivenToGitHubAccount"
+[khadeer@khadeer Desktop]$ git config --global user.name "mkhb"[khadeer@khadeer Desktop]$ git config --global user.email "basha290790@gmail.com"
+[khadeer@khadeer Desktop]$ cd '/home/khadeer/Desktop/HTML ' 
+[khadeer@khadeer HTML ]$ ls
+bold_text.htm  heading_tags.htm    image.htm      strong_text.htm
+first.htm      horizontalline.htm  paragraph.htm  textformatting.htm
+fontsize.htm   hyperlink.htm       pretag.htm     tooltip.htm
+[khadeer@khadeer HTML ]$ git init
+Initialized empty Git repository in /home/khadeer/Desktop/HTML /.git/
+[khadeer@khadeer HTML ]$ git ad -A
+git: 'ad' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	add
+	am
+[khadeer@khadeer HTML ]$ git add -A
+[khadeer@khadeer HTML ]$ git commit -m"Initial commit"
+[master (root-commit) 68e7b73] Initial commit
+ 12 files changed, 137 insertions(+)
+ create mode 100644 bold_text.htm
+ create mode 100644 first.htm
+ create mode 100644 fontsize.htm
+ create mode 100644 heading_tags.htm
+ create mode 100644 horizontalline.htm
+ create mode 100644 hyperlink.htm
+ create mode 100644 image.htm
+ create mode 100644 paragraph.htm
+ create mode 100644 pretag.htm
+ create mode 100644 strong_text.htm
+ create mode 100644 textformatting.htm
+ create mode 100644 tooltip.htm
+[khadeer@khadeer HTML ]$ git remote -v
+[khadeer@khadeer HTML ]$ git remote add origin https://github.com/mkhb/Demo.git""
+[khadeer@khadeer HTML ]$ git add -A
+[khadeer@khadeer HTML ]$ git commit -m"Initial commmit"
+# On branch master
+nothing to commit, working directory clean
+[khadeer@khadeer HTML ]$ git pull origin master
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/mkhb/Demo
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[khadeer@khadeer HTML ]$ git push origin master
+Username for 'https://github.com': mkhb
+Password for 'https://mkhb@github.com': 
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 2.08 KiB | 0 bytes/s, done.
+Total 15 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mkhb/Demo.git
+   2b8f32d..cee1939  master -> master
+[khadeer@khadeer HTML ]$ 
+ 
+
+
+
+Git commands for second time login: 
+
+[khadeer@khadeer Desktop]$ cd '/home/khadeer/Desktop/HTML ' 
+[khadeer@khadeer HTML ]$ ls
+bold_text.htm  heading_tags.htm    image.htm      strong_text.htm
+first.htm      horizontalline.htm  paragraph.htm  textformatting.htm
+fontsize.htm   hyperlink.htm       pretag.htm     tooltip.htm
+[khadeer@khadeer HTML ]$ git init
+Initialized empty Git repository in /home/khadeer/Desktop/HTML /.git/
+[khadeer@khadeer HTML ]$ git ad -A
+git: 'ad' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	add
+	am
+[khadeer@khadeer HTML ]$ git add -A
+[khadeer@khadeer HTML ]$ git commit -m"Initial commit"
+[master (root-commit) 68e7b73] Initial commit
+ 12 files changed, 137 insertions(+)
+ create mode 100644 bold_text.htm
+ create mode 100644 first.htm
+ create mode 100644 fontsize.htm
+ create mode 100644 heading_tags.htm
+ create mode 100644 horizontalline.htm
+ create mode 100644 hyperlink.htm
+ create mode 100644 image.htm
+ create mode 100644 paragraph.htm
+ create mode 100644 pretag.htm
+ create mode 100644 strong_text.htm
+ create mode 100644 textformatting.htm
+ create mode 100644 tooltip.htm
+[khadeer@khadeer HTML ]$ git remote -v
+[khadeer@khadeer HTML ]$ git remote add origin https://github.com/mkhb/Demo.git""
+[khadeer@khadeer HTML ]$ git add -A
+[khadeer@khadeer HTML ]$ git commit -m"Initial commmit"
+# On branch master
+nothing to commit, working directory clean
+[khadeer@khadeer HTML ]$ git pull origin master
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/mkhb/Demo
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[khadeer@khadeer HTML ]$ git push origin master
+Username for 'https://github.com': mkhb
+Password for 'https://mkhb@github.com': 
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 2.08 KiB | 0 bytes/s, done.
+Total 15 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mkhb/Demo.git
+   2b8f32d..cee1939  master -> master
+[khadeer@khadeer HTML ]$ 
+
